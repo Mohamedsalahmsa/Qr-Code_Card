@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(212, 45%, 89%);
+    font-family: fontsQuiz;
+
+}
+.container{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+}
+.container .card {
+    background: #fff;
+    height: 490px;
+    width: 300px;
+    border: 15px solid #fff;
+    border-radius: 7px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    box-shadow: 7px 7px 5px 1px  rgba(0, 0, 0, 0.2);
+}
+.container .images img {
+    width: 100%;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+}
+.texts {
+    width: 100%;
+  font-size: 15px;
+ text-align: center;
+ margin-top: 20px;
+}
+.texts h2{
+    color: hsl(218, 44%, 22%);
+    font-weight: 400;
+}
+.texts p {
+    font-size: 1.2em;
+    margin-top: 9px;
+    color:  hsl(220, 15%, 55%);
+    font-family: fontsQuizRegular;
+    font-weight: 700;
+    margin-top: 0.7em;
+
+}
+@font-face {
+    font-family: fontsQuiz;
+    src: url(/./Qr-Code_Card/fonts/Outfit-Bold.ttf);
+  }
+  @font-face {
+    font-family: fontsQuizRegular;
+    src: url(/./Qr-Code_Card/fonts/Outfit-Regular.ttf);
+  }
